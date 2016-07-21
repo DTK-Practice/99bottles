@@ -1,23 +1,17 @@
 # 99 Bottles
 
-## Installing Ruby
+The test suite and exercise are written in Ruby. If you’re unfamiliar with the language, ruby-lang.org has installation instructions, a gentle tutorial (Ruby in Twenty Minutes), and further references.
 
-### Windows
+To run the test suite, invoke Ruby with the path to the test file. 
 
-There's an installer, it's easy.
-http://rubyinstaller.org/
+```ruby test/bottles_test.rb```
 
-### Mac
+The test suite contains one failing test, and many skipped tests. Your goal is to write code that passes all of the tests. Follow this protocol:
 
-Newer macs ship with a usable version of Ruby.
+* run the tests and examine the failure
+* write only enough code to pass the failing test
+* unskip the next test (this simulates writing it yourself)
+ 
+Repeat the above until no tests is skipped, and you’ve written code to pass each one.
 
-Try `ruby -v` in a terminal window, and if it's 1.9.x or 2.x you're fine.
-
-http://www.railstutorial.org/book/beginning#sec-install_ruby
-http://tutorials.jumpstartlab.com/topics/environment/environment.html
-http://docs.railsbridge.org/installfest/macintosh
-
-### Linux
-
-Ubuntu: http://docs.railsbridge.org/installfest/linux
-https://www.ruby-lang.org/en/installation/
+Work on this task for 30 minutes. The vast majority of folks do not finish in 30 minutes, but it’s useful, for later comparison purposes, to record how far you got. Even if you can’t force yourself to stop at that point, take a break at 30 minutes and save your code.
